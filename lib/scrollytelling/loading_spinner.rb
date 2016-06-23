@@ -1,7 +1,6 @@
-require "scrollytelling/loading_spinner/version"
+require "scrollytelling/loading_spinner/engine"
 
 module Scrollytelling
   module LoadingSpinner
-    # Your code goes here...
   end
 end

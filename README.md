@@ -1,24 +1,22 @@
 # Scrollytelling::LoadingSpinner
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/scrollytelling/loading_spinner`. To experiment with that code, run `bin/console` for an interactive prompt.
+Replace the built-in [Pageflow](https://github.com/codevise/pageflow) loading spinner with a pure CSS version.
 
-TODO: Delete this and the text above, and describe your gem
+## Hack Attack!
+
+This plugin uses an **unoffical API** to patch Pageflow. This is why the version check for this gem is a little more strict than usual.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile, _after_ `pageflow`:
 
 ```ruby
 gem 'scrollytelling-loading_spinner'
 ```
 
-And then execute:
+Bundle the plugin with your application by typing this on the command line:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install scrollytelling-loading_spinner
 
 ## Usage
 
