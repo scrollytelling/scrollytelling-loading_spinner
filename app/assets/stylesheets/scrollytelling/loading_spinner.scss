@@ -82,3 +82,8 @@
   background-size: cover;
   margin: 10% auto;
 }
+
+// Hide loader when pageflow has finished loading.
+.finished-loading .loader_wrapper {
+  display:none;
+}

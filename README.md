@@ -23,6 +23,9 @@ Bundle the plugin with your application by typing this on the command line:
 Add it to the asset pipeline:
 
 ```
+# app/assets/javascripts/pageflow/application.js
+//= require scrollytelling/loading_spinner
+
 # app/assets/stylesheets/pageflow/application.css.scss
 @import "scrollytelling/loading_spinner";
 ```
