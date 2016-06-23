@@ -1,10 +1,10 @@
 # Scrollytelling::LoadingSpinner
 
-Replace the built-in [Pageflow](https://github.com/codevise/pageflow) loading spinner with a pure CSS version.
+Replace the built-in [Pageflow](https://github.com/codevise/pageflow) loading spinner with the [Scrollytelling](https://www.scrollytelling.io) version. Our version does not have a ring and just one color for the spinning wheel; white.
 
 ## Hack Attack!
 
-This plugin uses an **unoffical API** to patch Pageflow. This is why the version check for this gem is a little more strict than usual.
+This plugin uses an **unoffical API** to patch Pageflow. This is why the version check for this gem is a little more strict than usual. If you're able to install this, it will work just fine. When a new version of Pageflow comes out, I will have to verify that all paths are still the same. If so I'll update the gemspec.
 
 ## Installation
 
