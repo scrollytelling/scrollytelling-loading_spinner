@@ -20,7 +20,26 @@ Bundle the plugin with your application by typing this on the command line:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add it to the asset pipeline:
+
+```
+# app/assets/stylesheets/pageflow/application.css.scss
+@import "scrollytelling/loading_spinner";
+```
+
+You will want to override the `.loader_logo` CSS declaration in your theme to suit your needs.
+
+```css
+.loader_logo {
+  width: 360px;
+  height: 55px;
+  background-image: asset-url('scrollytelling/loading_spinner/logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 10% auto;
+}
+```
 
 ## Development
 
