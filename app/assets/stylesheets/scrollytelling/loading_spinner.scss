@@ -79,8 +79,11 @@
   background-image: asset-url('scrollytelling/loading_spinner/logo.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
   margin: 10% auto;
+
+  // Logo in loader on mobile always fitting in browser
+  max-width: 80%;
+  background-size: contain;
 }
 
 // Hide loader when pageflow has finished loading.
